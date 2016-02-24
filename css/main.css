@@ -17,7 +17,7 @@
 
 		/*section home css*/
 		#home{text-align:center;color:#ffffcc;}
-		#home #avatar{display:block;margin:4em auto 1em auto;border:10px solid #ffffcc;border-radius:138px;}
+		#avatar{display:block;margin:4em auto 1em auto;border:10px solid #ffffcc;border-radius:138px;}
 		#home #subtitle{color:#0099cc;margin-bottom:0.25em;font-size:1.5em}
 		.highlight{color:#06F;}
 		
@@ -25,9 +25,9 @@
 		#about {padding-left:3%;letter-spacing:0.125em;}
 		#about ul,ol{margin:0;padding:0;}
 		#about li{margin:0.5em;margin-left:1em;}
-		#about h2{border-left:4px solid #69C;padding-left:0.25em;}
-		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;}
-		.part{height:7em;margin-left:2em;max-width:26em;}
+		#about h2{border-left:4px solid #69C;padding-left:0.25em;margin:0;}
+		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;margin:1em 0 0 0;}
+		.part{height:7em;margin-left:2em;min-height:5em;}
 		.emp{color:#369;}
 		
 		/*section works css*/
@@ -38,25 +38,17 @@
 		.title{margin-top:-30px;height:30px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;}
 		.description{height:200px;width:300px;color:#fff;background-color:black;opacity:0.7;font-size:1.1em;}
 		.description p{width:240px;margin:0 auto;padding-top:20%;}
-		/*.floatfix:after{content:"";display:table;clear:both;}	
-		.demolist li{float:left;border:1px solid #FFF;width:300px;height:225px;overflow:hidden;margin:25px 20px;box-shadow: 0px 5px 10px rgba(0,0,0,0.5);}
-		.demolist li a{display:block;float:left; text-decoration:none;color:black;}
-		.img{width:300px;height:225px;}
-		.title{margin-top:-30px;height:30px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;}
-		.description{height:225px;width:300px;color:#fff;background-color:black;opacity:0.7;font-size:1.1em;}
-		.description p{width:240px;margin:0 auto;padding-top:20%;}*/
 		
 		/*section skill css*/
-		#skill .content{margin:0 auto;width:50em;}	
+		.content{margin:0 auto;width:50em;}	
 		.column{padding-left:7em;}
 		.column span{margin-left:3em;}
 		.name{display:inline-block;height:1em;margin-top:1em;width:6em}			
 		.progress{display:inline-block;height:1em;margin-top:1em;webkit-transition: all 0.1s;-moz-transition: all 0.1s;-ms-transition: all 0.1s;-o-transition: all 0.1s;transition: all 0.1s;}
 		.progress:hover {border:0.125em solid #fff;height:0.875em;margin-top:0.875em;}
 		#skill ul{float:left;}
-		.tips{float:left;}
-		.tips span{display:block;width:23em;color:#fff;opacity:0.2;margin-bottom:0.75em;}
-		
+		.tips{float:left;margin-top:2.25em;}
+		.tips span{display:block;width:23em;color:#fff;opacity:0.2;margin-bottom:0.675em;}
 		
 		/*section contact css*/
 		#contact{text-align:center;}
@@ -72,22 +64,33 @@
 .col-12{width:100%;float:left}
 @media screen and (max-width: 760px){.col-1{width:100%}.col-2{width:100%}.col-3{width:100%}
 .col-4{width:100%}.col-5{width:100%}.col-6{width:100%}.col-7{width:100%}.col-8{width:100%}
-.col-9{width:100%}.col-10{width:100%}.col-11{width:100%}.col-12{width:100%}
-.description{margin-top:-255px;height:225px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;opacity:0.6;}
+.col-9{width:100%}.col-10{width:100%}.col-11{width:100%}.col-12{width:100%}	
+.mobile .demolist li{float:none;margin:20px auto}
+.mobile .practice{display:none;}
+.mobile .tips{display:none;}
+.mobile #skill ul{float:none;}
+.mobile .content{margin:0 auto;width:auto;max-width:40em;}	
+.mobile .column{padding-left:6em;margin-bottom:-0.5em;}
+.mobile .column span{margin-left:2em;}
 }
 
 /*mobile*/
-mobile html{font-size:12px;}
-.mobile #avatar{width:128px;height:128px;border:0}
-.mobile .circle-img{margin:20px 10px}
-.mobile h2{text-align:center}
-.mobile h1{font-size:2.625em;margin:0 0 0.5em 0;margin-top:0}
-.mobile h2{font-size:1.5em;margin:0 0 0.2em 0;margin-top:0}
-.mobile h3{font-size:1.125em;margin:0 0 0.1em 0;margin-top:0}
-.mobile h4{font-size:0.9375em;margin:0 0 0.1em 0;margin-top:0}
-.mobile h5{font-size:0.9em;margin:0 0 0.1em 0;margin-top:0}
-.mobile h6{font-size:0.825em;margin:0 0 0.1em 0;margin-top:0}
-.mobile p{font-size:0.88em}.mobile ul{font-size:0.88em}
-.mobile .section{padding:50px 10px}
-.mobile #profession.section.center{text-align:left}
-.mobile #project.section{text-align:center}
+.mobile{font-size:1.5em;}
+.mobile h1{font-size:2em;margin:0 0 0.5em 0;margin-top:3em}
+.mobile h2{font-size:1.125em;}
+.mobile h3{font-size:0.9375em;margin:0 0 0.1em 0;margin-top:0}
+.mobile p,ul,ol{font-size:0.88em}
+.mobile #menu{display:none;}
+.mobile #avatar{border:4px solid #ffffcc;border-radius:132px}
+/*mobile about*/
+.mobile .row{padding-left:0.5em;padding-right:0.5em;}
+.mobile .part {height:100%;max-width:100%;}
+/*mobile works*/
+.mobile .demolist{margin:0 auto;}
+.mobile .description{margin-top:-230px;height:230px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;opacity:0.6;}
+/*mobile skill*/
+.mobile .tips{margin-left:3em;}
+.mobile .tips span{opacity:1;margin-bottom:0.675em}
+
+
+.mobile .demolist li a{display:block;float:left; text-decoration:none;color:black;}
