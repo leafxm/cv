@@ -75,3 +75,19 @@
 .col-9{width:100%}.col-10{width:100%}.col-11{width:100%}.col-12{width:100%}
 .description{margin-top:-255px;height:225px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;opacity:0.6;}
 }
+
+/*mobile*/
+mobile html{font-size:12px;}
+.mobile #avatar{width:128px;height:128px;border:0}
+.mobile .circle-img{margin:20px 10px}
+.mobile h2{text-align:center}
+.mobile h1{font-size:2.625em;margin:0 0 0.5em 0;margin-top:0}
+.mobile h2{font-size:1.5em;margin:0 0 0.2em 0;margin-top:0}
+.mobile h3{font-size:1.125em;margin:0 0 0.1em 0;margin-top:0}
+.mobile h4{font-size:0.9375em;margin:0 0 0.1em 0;margin-top:0}
+.mobile h5{font-size:0.9em;margin:0 0 0.1em 0;margin-top:0}
+.mobile h6{font-size:0.825em;margin:0 0 0.1em 0;margin-top:0}
+.mobile p{font-size:0.88em}.mobile ul{font-size:0.88em}
+.mobile .section{padding:50px 10px}
+.mobile #profession.section.center{text-align:left}
+.mobile #project.section{text-align:center}
