@@ -23,7 +23,8 @@
 		
 		/*section about css*/
 		#about {padding-left:3%;letter-spacing:0.125em;}
-		#about ul,ol{margin:0;padding:0;}
+		#about ul{margin:0;padding:0;}
+		#about ol{margin:0.5em;}
 		#about li{margin:0.5em;margin-left:1em;}
 		#about h2{border-left:4px solid #69C;padding-left:0.25em;margin:0;}
 		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;margin:1em 0 0 0;}
