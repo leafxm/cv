@@ -118,6 +118,18 @@
                     </div>
                 </a>
             </li>
+			<li>
+			<a href="http://leafxm.com/demo/carousel" target="_blank" >
+				<div class="img" style="background:url(img/carousel.JPE)">		
+				</div>
+				<div class="title">
+				轮播图
+				</div>
+				<div class="description">
+                    	<p>实现自动轮播和选择图片的功能</p>
+                    </div>
+			</a>
+		</li>
 		</ul>
 	</div>
 	
@@ -197,7 +209,8 @@
    </div>
 	</div>
 <script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/jquery.pagepiling.min.js"></script>
+
   </body>
 </html>
