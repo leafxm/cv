@@ -35,7 +35,7 @@
 		/*section works css*/
 		.floatfix:after{content:"";display:table;clear:both;}	
 		.demolist{padding-left:30px;}
-		.demolist li{float:left;border:1px solid #FFF;width:300px;height:200px;overflow:hidden;margin:20px 30px;box-shadow: 0px 5px 10px rgba(0,0,0,0.5);}
+		.demolist li{float:left;border:1px solid #FFF;width:300px;height:200px;overflow:hidden;margin:20px 40px;box-shadow: 0px 5px 10px rgba(0,0,0,0.5);}
 		.demolist li a{display:block;float:left; text-decoration:none;color:black;}
 		.img{width:300px;height:200px;}
 		.title{margin-top:-30px;height:30px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;}
