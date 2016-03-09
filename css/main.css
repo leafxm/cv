@@ -50,7 +50,7 @@
 		.progress{display:inline-block;height:1em;margin-top:1em;webkit-transition: all 0.1s;-moz-transition: all 0.1s;-ms-transition: all 0.1s;-o-transition: all 0.1s;transition: all 0.1s;}
 		.progress:hover {border:0.125em solid #fff;height:0.875em;margin-top:0.875em;}
 		#skill ul{float:left;}
-		.tips{float:left;margin-top:2.25em;}
+		.tips{float:left;margin-top:1.75em;margin-bottom:1.25em;padding-left:1em;}
 		.tips span{display:block;width:23em;color:#fff;opacity:0.2;margin-bottom:0.675em;}
 		
 		/*section contact css*/
