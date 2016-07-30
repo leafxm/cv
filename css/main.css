@@ -23,19 +23,38 @@
 		
 		/*section about css*/
 		#about {letter-spacing:1px;font-size:20px;}
-		#about ul{margin:0;padding:0;}
-		#about ol{margin:0.5em;}
-		#about li{margin:0.5em;margin-left:1em;}
+		#about .tags {margin:50px auto;max-width:720px;}
+		@keyframes swing{
+			50% {
+				outline:#fff solid 1px;
+			}
+			100% {
+				outline:#fff solid 2px;
+			}
+
+		} 
+		#about .tags li {display: inline-block;padding:10px;margin:10px;border-radius: 4px;color:#fff;animation: swing 1s ease-in-out reverse infinite;}
+		#about .tags li:nth-of-type(3n){
+			background: #69c;	
+			transform: rotate(6deg);
+		}
+		#about .tags li:nth-of-type(3n+1){
+			background: #ff6666;
+			transform: rotate(-3deg);
+		}
+		#about .tags li:nth-of-type(3n+2){
+			background: #cccc00;
+			transform: rotate(3deg);
+		}
 		#about h2{border-left:4px solid #69C;padding-left:0.25em;margin:0;}
-		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;margin:1em 0 0 0;}
-		#about .col-5{margin-left:3%;}
-		.part{height:7em;margin-left:2em;min-height:5em;}
+		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;margin:0.5em 0 0 0;}
+		.part{margin-left:2em;min-height: 5em}
 		.emp{color:#C00;}
 		
 		/*section works css*/
 		.floatfix:after{content:"";display:table;clear:both;}	
 		.demolist{padding-left:30px;}
-		.demolist li{float:left;border:1px solid #FFF;width:300px;height:200px;overflow:hidden;margin:20px 40px;box-shadow: 0px 5px 10px rgba(0,0,0,0.5);}
+		.demolist li{float:left;border:1px solid #FFF;width:300px;height:200px;overflow:hidden;margin:20px 10px;box-shadow: 0px 5px 10px rgba(0,0,0,0.5);}
 		.demolist li a{display:block;float:left; text-decoration:none;color:black;}
 		.img{width:300px;height:200px;}
 		.title{margin-top:-30px;height:30px;width:100%;color:gray;font-weight:bold;background-color:black;text-align:center;line-height:30px;}
