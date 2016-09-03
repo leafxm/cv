@@ -47,7 +47,9 @@
 			transform: rotate(3deg);
 		}
 		#about h2{border-left:4px solid #69C;padding-left:0.25em;margin:0;}
-		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;margin:0.5em 0 0 0;}
+		#about h4{width:1em;border-right:2px solid #375E9D;color:#375E9D;float:left;}
+		#about .desc {margin-top:1em;}
+		#about .duty{margin-top:0em;}
 		.part{margin-left:2em;min-height: 5em}
 		.emp{color:#C00;}
 		
